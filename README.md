@@ -1,16 +1,7 @@
 # Environmental Sensor Analysis 
-![Dashboard](https://drive.google.com/uc?export=view&id=1GUmXRJ62K1MrEOuq3COgEiPZrgAjwTZq)
-
-
-1. The aim of the project was to forecast the future values of temperature, co2, humidity, LPG, and smoke so that farmers or clients could be prepared in advance with the precautionary measure to tackle any adverse environment which affects the production and growth of plants.
-
-2. We created a machine learning solution using Fast API which helps to fetch the data from online MongoDB servers and feed it to the FBProphet model to give us the future forecast values which were displayed using the Dashboard created
-using Dash Framework.
-
-3. We had the time-series data of the past 3 months which was preprocessed and
-resampled by minutes and we use the Arima model at first but due to low
-accuracy, we decided to go with the Prophet model which gave us an accuracy of
-73.5%.
+1. The project aims to forecast future values of temperature, CO2, humidity, LPG, and smoke, enabling farmers and clients to prepare precautionary measures against adverse environments affecting plant production and growth.
+2. A machine learning solution using Fast API fetches data from online MongoDB servers and feeds it to the FBProphet model to generate future forecast values, displayed via a Dashboard created using Dash Framework.
+3. Time-series data from the past 3 months was preprocessed and resampled by minutes. Initially using the Arima model, the project switched to the Prophet model due to higher accuracy, achieving 73.5%.
 
 
 
