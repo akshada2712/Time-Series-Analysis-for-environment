@@ -1,4 +1,4 @@
-# Environmental Sensor Analysis 
+# Time Series Analysis for Environment
 1. The project aims to forecast future values of temperature, CO2, humidity, LPG, and smoke, enabling farmers and clients to prepare precautionary measures against adverse environments affecting plant production and growth.
 2. A machine learning solution using Fast API fetches data from online MongoDB servers and feeds it to the FBProphet model to generate future forecast values, displayed via a Dashboard created using Dash Framework.
 3. Time-series data from the past 3 months was preprocessed and resampled by minutes. Initially using the Arima model, the project switched to the Prophet model due to higher accuracy, achieving 73.5%.
